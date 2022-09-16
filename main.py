@@ -36,15 +36,15 @@ luckyNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15]
 friends = ["Kevin", "Karen", "jim", "oscar", "tim", "lord tennyson"]
 # instructions:
 ######join both lists together in a new list
-
+luckyNumbers.extend(friends)
 ###### print the new list out
-
+print(luckyNumbers)
 ###### print out the first item in the list
-
+print(luckyNumbers[0])
 ###### remove the last item of the new list
-
+print(luckyNumbers.remove("lord tennyson"))
 ###### print the new list out without the last item
-
+print(luckyNumbers)
 ###### add three more items to the end of the list
 
 ###### print the last item in the new list
